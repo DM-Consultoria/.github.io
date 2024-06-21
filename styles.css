@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('background.jpg');
+    background-image: url('/imagens/background.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -48,13 +48,14 @@ nav ul li a {
 }
 
 .hero h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
 }
 
 .hero h2 {
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
+    text-shadow: 2px 2px 4px #000;
 }
 
 
@@ -91,8 +92,12 @@ section {
     
 }
 .sobre .descricao{
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.servicos{
+    background-color: #5DC87A;
 }
 .servicos ul {
     list-style: none;
@@ -102,7 +107,7 @@ section {
 
 .servicos ul li {
     font-weight: bold;
-    color: #5DC87A;
+    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -133,25 +138,22 @@ section {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .whatsapp-button {
     display: inline-block;
-    margin-top: 20px;
     margin-right: 50px;
-    float: right;
 }
 
 .whatsapp-button img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
+
 
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #5DC87A;
     color: white;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
