@@ -142,6 +142,12 @@ section {
     border-radius: 5px;
 }
 
+.contato form button :hover{
+    transform: scale(1.05);
+	cursor: pointer;
+}
+
+
 .sucesso{
     background-color: #5DC87A;  
     color: #fff;
@@ -196,10 +202,7 @@ footer .redes-contato{
     }
 
     .contato form input, .contato form textarea {
-        width: 90%;
+        width: 100%;
     }
 
-    .contato .whatsapp-button {
-        text-align: center;
-    }
-}
+   }
