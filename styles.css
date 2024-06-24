@@ -1,0 +1,205 @@
+
+body {
+    font-family: 'Releway', sans-serif;
+    margin: auto;
+    padding: 0;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+.sobre, .servicos, .contato {
+    background-color: #f5f5f5;
+}
+
+.sobre .content, .servicos .content, .contato .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sobre .especialista {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sobre .especialista img.img-redonda {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+
+.sobre .especialista p {
+    font-weight: bold;
+    color: #000;
+    
+}
+.sobre .descricao{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.servicos{
+    background-color: #5DC87A;
+}
+.servicos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.servicos ul li {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.contato form label {
+    margin-top: 10px;
+}
+
+.contato form input, .contato form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato form button {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 15px;
+    background-color: #5DC87A;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sucesso{
+    background-color: #5DC87A;  
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.sucesso .logo-fb{
+    display: inline;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   
+   }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #5DC87A;
+    color: white;
+    bottom: 0;
+    }
+footer .redes-contato{
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .sobre .img-redonda {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contato form input, .contato form textarea {
+        width: 100%;
+    }
+
+    .contato .whatsapp-button {
+        text-align: center;
+    }
+}
