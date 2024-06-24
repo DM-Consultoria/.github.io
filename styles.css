@@ -142,6 +142,10 @@ section {
     border-radius: 5px;
     box-shadow: 2px 2px 4px #000;
 }
+.contato form button :hover{
+    transform: scale(1.2);
+}
+
 
 .sucesso{
     background-color: #5DC87A;  
